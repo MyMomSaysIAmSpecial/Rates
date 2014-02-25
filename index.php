@@ -1,5 +1,11 @@
 <?php
 
+	/**
+	 * Example: getYahooRates(array('JPY', 'RUB'));
+	 *
+	 * @param array $aCurrencyCodesToProcess
+	 * @return array
+	 */
 	function getYahooRates($aCurrencyCodesToProcess) {
 
 		foreach ( $aCurrencyCodesToProcess as $sCurrencyCode ) {
